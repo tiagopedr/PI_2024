@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PROJETO INTEGRADOR</title>
+	<link rel="stylesheet" href="../CSS/stylecoord.css">
+</head>
+<img class="logo1" src="../IMAGENS/download.png" alt="">
+<h2 class="principal">CONFERÊNCIAS DE SAÚDE</h2>
+<script src="../JS/main.js"></script>
+
+<body>
+
+	<h2 class="titulo"><i>COORDENAÇÃO - <span>ETAPA MUNICIPAL</span></i></h2>
+
+
+	<section>
+
+		<form action="../HTML/index.html" method="post" autocomplete="off">
+			<div class="form" id="form">
+
+				<div class="form">
+					<label for="inputName" class="input-single"><strong>Nome </strong></label>
+					<input type="text" autocomplete="name" class="text1" id="inputName" placeholder="Seu Nome" required
+						minlength="5"></textarea>
+				</div>
+
+				<div class="form">
+					<label for="inputIdent" class="input-single"><strong>Documento de
+							Identidade</strong></label>
+					<input type="text" class="text3" id="inputIdent" autocomplete="off" maxlength="14"
+						placeholder="Digite apenas números" required></textarea>
+					<label for="tipo" class="tipo"><strong>Tipo</strong></label>
+					<select name="tipo" id="tipo" required>
+						<option selected value="">Informe o tipo de Documento</option>
+						<option>RG</option>
+						<option>CPF</option>
+						<option>CNH</option>
+						<option>CONSELHO REGIONAL</option>
+						<option>DOC. ESTRANGEIRO</option>
+						<option>OUTROS</option>
+
+					</select>
+				</div>
+
+				<fieldset>
+					<div class="segmento">
+						<label><strong>Função</strong></label>
+						<select id="segmento" required>
+							<option selected value="">Escolha uma Opção</option>
+							<option>Presidente</option>
+							<option>Coordenador Adjunto</option>
+							<option> Relator</option>
+							<option> Relator Adjunto</option>
+						</select>
+					</div>
+
+				</fieldset>
+
+				<div class="btn">
+					<button type="submit" id="botao1" class="botao1">SALVAR</button>
+					<button type="reset" id="botao2" class="botao2">LIMPAR</button>
+
+					<a href="../../index.html" id="retorna" class="retorna">
+						<li>RETORNAR</li>
+					</a>
+
+				</div>
+
+	</section>
+
+	</form>
+
+</body>
+
+</html>

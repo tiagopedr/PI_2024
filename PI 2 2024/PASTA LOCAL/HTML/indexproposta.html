@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PROJETO INTEGRADOR</title>
+	<link rel="stylesheet" href="../CSS/styleproposta.css">
+</head>
+
+<img class="logo1" src="../IMAGENS/download.png" alt="">
+<h2 class="principal">CONFERÊNCIAS DE SAÚDE</h2>
+<script src="../JS/main.js"></script>
+
+<body>
+
+	<h2 class="titulo"><i>DESCRIÇÃO DAS PROPOSTAS APROVADAS - <span>ETAPA LOCAL </span></i></h2>
+
+
+	<section>
+
+		<form action="../HTML/indexlista.html" method="post" autocomplete="off">
+			<div class="form" id="form">
+
+				<p>
+					<label id="title"><strong>Digite sua Proposta</strong></label>
+				</p>
+				<p><textarea name="textarea" id="msg" col="150" rows="50"></textarea>
+				</p>
+				<p><label for="inputName" id="title" class="rotulo"><strong>Palavra Chave </strong></label>
+					<input type="text" autocomplete="name" class="InputName" id="inputName"
+						placeholder="Digite uma palavra chave p/ sua proposta" required minlength="5"></textarea>
+
+				</p>
+
+				<div class="form">
+					<label for="tipo" class="tipo"><strong>Esfera</strong></label>
+					<select name="tipo" class="tipo" id="tipo" required>
+						<option selected value="">Informe tipo de Esfera</option>
+						<option>LOCAL</option>
+						<option>MUNICIPAL</option>
+						<option>ESTADUAL</option>
+						<option>NACIONAL</option>
+					</select>
+				</div>
+				<br>
+				<div class="btn">
+					<button type="submit" id="botao1" class="botao1">SALVAR</button>
+					<button type="reset" id="botao2" class="botao2">LIMPAR</button>
+
+					<a href="../../index.html" id="retorna" class="retorna">
+						<li>RETORNAR</li>
+					</a>
+
+				</div>
+
+	</section>
+
+	</form>
+
+</body>
+
+</html>

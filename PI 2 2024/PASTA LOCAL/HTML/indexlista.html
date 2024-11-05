@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PROJETO INTEGRADOR</title>
+	<link rel="stylesheet" href="../CSS/stylelista.css">
+
+</head>
+<img class="logo1" src="../IMAGENS/download.png" alt="">
+<h2 class="principal">CONFERÊNCIAS DE SAÚDE</h2>
+<script src="../JS/main.js"></script>
+
+<body>
+
+	<h2 class="titulo"><i>LISTA DE PRESENÇA - <span>ETAPA LOCAL</span></i></h2>
+
+	<section>
+
+		<form id="formsaude">
+
+			<div class="form">
+
+				<div class="form">
+					<label for="inputName" class="rotulo"><strong>Nome Participante </strong></label>
+					<input type="text" class="text1" id="inputName" name="nome" placeholder="Seu Nome" maxlength="40"
+						minlength="5" required></textarea>
+				</div>
+
+				<div class="form">
+					<label for="email" class="input-single"><strong>Email</strong></label>
+					<input type="email" name="EMAIL" autofocus class="email" id="email" autocomplete="email"
+						placeholder="Seu@Email" required></textarea>
+				</div>
+
+				<div class="form">
+					<label for="inputIdent" class="input-single"><strong>Documento de
+							Identidade</strong></label>
+					<input type="text" name="DOCUMENTO" class="text3" id="inputIdent" autocomplete="off" maxlength="14"
+						placeholder="Digite apenas números" required></textarea>
+					<label for="tipo" class="tipo"><strong>Tipo</strong></label>
+					<select name="TIPO" id="tipo" required>
+						<option selected value="">Informe o tipo de Documento</option>
+						<option>RG</option>
+						<option>CPF</option>
+						<option>CNH</option>
+						<option>CONSELHO REGIONAL</option>
+						<option>DOC. ESTRANGEIRO</option>
+						<option>OUTROS</option>
+
+					</select>
+				</div>
+
+				<p>
+					<label for="inputTel" name="Telefone" class="input-single"><strong>Telefone</strong></label>
+					<input type="text" name="TELEFONE" class="text4" maxlength="14" id="inputTel" size="9"
+						autocomplete="tel-local" placeholder="Digite apenas números" required></textarea>
+				</p>
+
+				<fieldset>
+					<div class="segmento">
+						<label><strong>Segmento Representado</strong></label>
+						<select id="segmento" name="SEGMENTO" required>
+							<option selected value="">Escolha uma Opção</option>
+							<option>Usuários</option>
+							<option> Trabalhadores</option>
+							<option> Gestores/Prestadores</option>
+						</select>
+					</div>
+
+					<div class="candidato">
+						<label><strong>É candidato a Delegado</strong></label>
+						<select id="candidato" name="CANDIDATO" required>
+							<option selected value=""> - </option>
+							<option>NÃO</option>
+							<option>SIM</option>
+						</select>
+					</div>
+
+				</fieldset>
+				<div class="btn">
+					<button type="submit" id="botao1" class="botao1">SALVAR</button>
+					<button type="reset" id="botao2" class="botao2">LIMPAR</button>
+
+					<a href="../../index.html" id="retorna" class="retorna">
+						<li>RETORNAR</li>
+					</a>
+
+				</div>
+
+	</section>
+
+	</form>
+</body>
+
+</html>

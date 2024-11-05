@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap') @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap"rel="stylesheet">) * {
+	margin: 0;
+	padding: 0;
+	background-color: #ffffff;
+	list-style: none;
+	text-decoration: none;
+}
+
+label {
+	font-family: 'Courier New', Courier, monospace;
+	text-align: center;
+	margin-bottom: 45px;
+}
+
+h2 {
+	font-family: 'kdam Thmor Pro', sans-serif;
+}
+
+body {
+	background-image: url(../IMAGENS/istockphoto-1369987284-612x612.jpg);
+	width: 100%;
+	height: 100vh;
+	padding: 30;
+	margin: 70px;
+	right: 80px;
+	margin-left: 36px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: rgb(241, 241, 131) (240, 240, 32);
+	text-align: center;
+}
+
+span {
+	color: #B22222;
+}
+
+section {
+	padding: 55px;
+	height: 60%;
+	width: 70%;
+	background-color: floralwhite;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 45px;
+	background-size: contain;
+	opacity: 0.7;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.etapalocal {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	padding: 10px;
+	color: rgb(4, 4, 85);
+	font-size: 17px;
+	line-height: 30%;
+	margin-left: 10px;
+	margin-top: 0em;
+}
+
+.principal {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	padding: 0px;
+	color: rgb(4, 4, 85);
+	font-size: 40px;
+	margin: 10px;
+	font-weight: 400;
+	text-decoration: underline;
+}
+
+.titulo {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	padding: 10px;
+	color: rgb(4, 4, 85);
+	font-size: 25px;
+	line-height: 30%;
+	margin-left: 10px;
+	margin-top: 4em;
+}
+
+.form {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	padding: 5px;
+	color: rgb(4, 4, 85);
+	font-size: 20px;
+	margin: 5px;
+	line-height: 10%;
+}
+
+#inputName:hover, .inputName:hover {
+	background-color: rgb(106, 189, 236);
+	transition: 0.5s;
+	opacity: 0.7;
+}
+
+#inputIdent:hover {
+	background-color: rgb(106, 189, 236);
+	transition: 0.5s;
+	opacity: 0.7;
+}
+
+#tipo:hover {
+	background-color: rgb(106, 189, 236);
+	transition: 0.5s;
+	opacity: 0.7;
+}
+
+#text1 {
+	height: 8em;
+	width: 100px;
+	font-size: 30px;
+	font-family: 'Courier New', Courier, monospace;
+	border: 0.1rem, solid;
+	box-shadow: 3px 0px 7px rgb(11, 163, 143);
+	margin-left: 2px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	padding: 5px;
+	text-align: center;
+}
+
+.InputName {
+	height: 1.5em;
+	width: 300px;
+	font-size: 20px;
+	font-family: 'Courier New', Courier, monospace;
+	border: 0.1rem, solid;
+	box-shadow: 3px 0px 7px rgb(11, 163, 143);
+	margin-left: 0.2px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	padding: 5px;
+	text-align: left;
+}
+
+#msg {
+	height: 7.5em;
+	width: 450px;
+	font-size: 20px;
+	font-family: 'Courier New', Courier, monospace;
+	border: 0.1rem, solid;
+	box-shadow: 3px 0px 7px rgb(11, 163, 143);
+	margin-left: 2px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	padding: 5px;
+	text-align: left;
+	padding-top: 1px;
+	padding-left: 10px;
+
+}
+
+#title {
+	font-family: 'Courier New', Courier, monospace;
+	text-align: left;
+	padding: 10px;
+	color: rgb(4, 4, 85);
+	font-size: 20px;
+	line-height: 30%;
+	margin-left: 10px;
+	margin-top: 5em;
+}
+
+#chave {
+	font-family: 'Courier New', Courier, monospace;
+	text-align: left;
+	padding: 10px;
+	color: rgb(4, 4, 85);
+	font-size: 20px;
+	line-height: 30%;
+	margin-left: 10px;
+	margin-top: 5em;
+	text-decoration: solid;
+
+}
+
+inputName {
+	text-align: left;
+	font-size: 10px;
+}
+
+#tipo {
+	height: 1.5em;
+	width: 300px;
+	font-size: 20px;
+	font-family: 'Courier New', Courier, monospace;
+	border: 0.1rem, solid;
+	box-shadow: 3px 0px 7px rgb(11, 163, 143);
+	margin-left: 2px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	padding: 5px;
+	text-align: left;
+}
+
+.segmento {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px 5px;
+}
+
+.etapamunicipal {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	padding: 10px;
+	color: rgb(4, 4, 85);
+	font-size: 20px;
+	margin: 7px;
+	line-height: 5px;
+}
+
+#botao2 {
+	height: 40px;
+	width: auto;
+	font-size: 8px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 6px;
+	font-size: 17px;
+	vertical-align: text-bottom;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	background-color: rgb(155, 250, 250);
+	transition: 0.5s;
+	opacity: 0.7;
+	cursor: pointer;
+	font-weight: bold;
+	margin-left: 200px;
+	margin-top: 20px;
+	display:
+}
+
+#botao1 {
+	height: 40px;
+	width: auto;
+	font-size: 8px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 6px;
+	font-size: 17px;
+	vertical-align: text-bottom;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	background-color: rgb(155, 250, 250);
+	transition: 0.5s;
+	opacity: 0.7;
+	cursor: pointer;
+	font-weight: bold;
+	margin-left: 300px;
+	margin-top: 20px;
+}
+
+#botao1:hover, #botao2:hover {
+	background-color: rgb(44, 241, 26);
+	transition: 0.5s;
+	opacity: 0.7;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+#retorna:focus {
+	transition: 0.5s;
+	opacity: 0.7;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+nav {
+	width: 120%;
+}
+
+ul {
+	display: flex;
+	width: 80%;
+	justify-content: flex-end;
+	justify-content: space-between;
+	padding: 60px;
+	margin-top: 10px;
+	color: brown;
+}
+
+
+li {
+	margin-right: 30px;
+	height: 30px;
+	width: auto;
+	color: blue;
+	font-size: 8px;
+	font-family: sans-serif;
+	padding: 7px;
+	font-size: 20px;
+	display: inline;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	background-color: rgb(241, 235, 199);
+	transition: 0.5s;
+	opacity: 0.7;
+	cursor: pointer;
+	font-weight: bold;
+	margin-left: 800px;
+	margin-top: 0px;
+	margin-bottom: 6.0%;
+	border: black, 2px, solid;
+	box-shadow: 3px 0px 7px #ebee25;
+}
+
+
+
+.logo1 {
+	float: left;
+	width: 200px;
+	height: 100px;
+	margin-top: 5px;
+	margin-left: 2px;
+	border: 2px solid black;
+	border-radius: 6px;
+}
